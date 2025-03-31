@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>Toddler Activity Finder | Educational Activities for Ages 2-3</title>
+    <meta name="description" content="Discover 100+ engaging educational activities for toddlers aged 2-3. Filter by skill area, setup time, and messiness level to find perfect homeschool activities.">
+    <meta name="keywords" content="toddler activities, homeschool toddler, 2-3 year old activities, educational activities, toddler learning, fine motor skills, sensory play">
+    <meta name="author" content="Vibe Code Mama">
+    <link rel="canonical" href="https://vibecodemama.com/toddler-activity-finder/">
+    
+    <!-- Open Graph / Facebook Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://vibecodemama.com/toddler-activity-finder/">
+    <meta property="og:title" content="Toddler Activity Finder | Educational Activities for Ages 2-3">
+    <meta property="og:description" content="Find the perfect educational activities for your 2-3 year old. 100+ ideas searchable by skill area, setup time, and messiness level.">
+    <meta property="og:image" content="https://vibecodemama.com/toddler-activity-finder/images/toddler-activities-social.png">
+    
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://vibecodemama.com/toddler-activity-finder/">
+    <meta name="twitter:title" content="Toddler Activity Finder | Educational Activities for Ages 2-3">
+    <meta name="twitter:description" content="Find the perfect educational activities for your 2-3 year old. 100+ ideas searchable by skill area, setup time, and messiness level.">
+    <meta name="twitter:image" content="https://vibecodemama.com/toddler-activity-finder/images/toddler-activities-social.png">
+    
+    <!-- Fonts and Styles -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png">
+    
+    <!-- Structured Data for Rich Results -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Toddler Activity Finder",
+      "url": "https://vibecodemama.com/toddler-activity-finder/",
+      "description": "An interactive tool to find educational activities for toddlers aged 2-3 years old",
+      "applicationCategory": "EducationalApplication",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Parents, Educators, Caregivers"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0"
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "Vibe Code Mama",
+        "url": "https://vibecodemama.com/"
+      }
+    }
+    </script>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+    </script>
+</head>
+<body>
+    <div class="container">
+        <!-- Updated header with more descriptive content -->
+        <header>
+            <div class="header-bubble bubble1"></div>
+            <div class="header-bubble bubble2"></div>
+            <div class="header-bubble bubble3"></div>
+            <h1>Toddler Activity Finder</h1>
+            <div class="subtitle">100+ educational activities for ages 2-3</div>
+        </header>
+        
+        <main>
+            <!-- Search and Filter Section with ARIA labels for accessibility -->
+            <section class="search-section" aria-label="Search and filter activities">
+                <div class="search-box">
+                    <input type="text" id="search-input" placeholder="Search for activities, materials, or skills..." aria-label="Search activities">
+                    <button id="search-button">Find Activities</button>
+                </div>
+                
+                <div class="filter-section">
+                    <div class="filter-category">
+                        <div class="filter-title">Activity Length</div>
+                        <div class="filter-options" data-filter-group="activityLength">
+                            <div class="filter-chip" data-value="all">All</div>
+                            <div class="filter-chip selected" data-value="5 min">5 min</div>
+                            <div class="filter-chip" data-value="10 min">10 min</div>
+                            <div class="filter-chip" data-value="15+ min">15+ min</div>
+                        </div>
+                    </div>
+                    
+                    <div class="filter-category">
+                        <div class="filter-title">Setup Time</div>
+                        <div class="filter-options" data-filter-group="setupTime">
+                            <div class="filter-chip" data-value="all">All</div>
+                            <div class="filter-chip selected" data-value="Quick">Quick</div>
+                            <div class="filter-chip" data-value="Some Prep">Some Prep</div>
+                            <div class="filter-chip" data-value="Plan Ahead">Plan Ahead</div>
+                        </div>
+                    </div>
+                    
+                    <div class="filter-category">
+                        <div class="filter-title">Messiness Level</div>
+                        <div class="filter-options" data-filter-group="messiness">
+                            <div class="filter-chip" data-value="all">All</div>
+                            <div class="filter-chip" data-value="Low">Clean</div>
+                            <div class="filter-chip selected" data-value="Medium">Some Mess</div>
+                            <div class="filter-chip" data-value="High">Very Messy</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Skill Categories Section -->
+            <section class="skill-categories-section" aria-label="Filter by skill category">
+                <h2 class="visually-hidden">Skill Categories</h2>
+                <div class="skill-categories">
+                    <div class="skill-category motor" data-category="motor">
+                        <div class="skill-icon" aria-hidden="true">✋</div>
+                        <div class="skill-name">Motor Skills</div>
+                    </div>
+                    
+                    <div class="skill-category language" data-category="language">
+                        <div class="skill-icon" aria-hidden="true">🗣️</div>
+                        <div class="skill-name">Language</div>
+                    </div>
+                    
+                    <div class="skill-category cognitive" data-category="cognitive">
+                        <div class="skill-icon" aria-hidden="true">🧠</div>
+                        <div class="skill-name">Cognitive</div>
+                    </div>
+                    
+                    <div class="skill-category sensory" data-category="sensory">
+                        <div class="skill-icon" aria-hidden="true">👀</div>
+                        <div class="skill-name">Sensory</div>
+                    </div>
+                    
+                    <div class="skill-category social" data-category="social">
+                        <div class="skill-icon" aria-hidden="true">👪</div>
+                        <div class="skill-name">Social</div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Activities Grid Section -->
+            <section class="activities-section" aria-label="Toddler activities">
+                <h2 class="visually-hidden">Activities</h2>
+                <div id="activities-grid" class="activities-grid">
+                    <!-- Activities will be inserted here by JavaScript -->
+                </div>
+                
+                <div class="load-more">
+                    <button id="load-more-btn" class="load-more-btn">Show More Activities</button>
+                </div>
+            </section>
+            
+            <!-- About Section -->
+            <section class="about-section">
+                <h2>About Toddler Activity Finder</h2>
+                <p>Welcome to the Toddler Activity Finder, your resource for finding developmentally appropriate activities for children ages 2-3. This collection of 100+ activities is designed to support your toddler's growth across five key developmental areas:</p>
+                
+                <div class="about-skills">
+                    <div class="about-skill">
+                        <h3>Motor Skills</h3>
+                        <p>Activities that develop both fine motor skills (small muscle movements in hands and fingers) and gross motor skills (large muscle movements and coordination).</p>
+                    </div>
+                    
+                    <div class="about-skill">
+                        <h3>Language Development</h3>
+                        <p>Exercises that enhance vocabulary, communication skills, early literacy, and language comprehension.</p>
+                    </div>
+                    
+                    <div class="about-skill">
+                        <h3>Cognitive Skills</h3>
+                        <p>Brain-building activities focusing on problem-solving, memory, matching, sorting, and early math concepts.</p>
+                    </div>
+                    
+                    <div class="about-skill">
+                        <h3>Sensory Exploration</h3>
+                        <p>Experiences that develop the senses (touch, sight, sound, smell, taste) and help toddlers process sensory information.</p>
+                    </div>
+                    
+                    <div class="about-skill">
+                        <h3>Social & Emotional Growth</h3>
+                        <p>Activities that foster emotional intelligence, sharing, turn-taking, empathy, and self-regulation.</p>
+                    </div>
+                </div>
+                
+                <p>All activities are designed with toddlers in mind - using simple materials, requiring minimal setup, and focusing on learning through play.</p>
+                
+                <div class="safety-note">
+                    <h3>Safety Note</h3>
+                    <p>Always supervise toddlers during these activities. Some materials may pose choking hazards or require adult assistance. Modify activities as needed for your child's individual developmental stage.</p>
+                </div>
+            </section>
+        </main>
+        
+        <!-- Footer with additional information -->
+        <footer>
+            <div class="footer-content">
+                <p>© 2025 <a href="https://vibecodemama.com">Vibe Code Mama</a>. All activities are designed for children ages 2-3 with adult supervision.</p>
+                <p>Created with love for parents and educators looking for engaging homeschool activities for toddlers.</p>
+                <div class="footer-links">
+                    <a href="https://vibecodemama.com/about">About</a>
+                    <a href="https://vibecodemama.com/contact">Contact</a>
+                    <a href="https://vibecodemama.com/privacy">Privacy Policy</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+    <script src="js/activities.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
