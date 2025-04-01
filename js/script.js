@@ -5,7 +5,7 @@ const activitiesPerPage = 9;
 let filters = {
     category: 'all',
     activityLength: 'all',
-    setupTime: 'Quick',
+    setupTime: 'all',
     messiness: 'all',
     search: ''
 };
@@ -151,17 +151,17 @@ function filterActivities() {
     }
     
     // Activity length filter
-    if (filters.activityLength) {
+    if (filters.activityLength && filters.activityLength !== 'all') {
         filtered = filtered.filter(activity => activity.activityLength === filters.activityLength);
     }
     
     // Setup time filter
-    if (filters.setupTime) {
+    if (filters.setupTime && filters.setupTime !== 'all') {
         filtered = filtered.filter(activity => activity.setupTime === filters.setupTime);
     }
     
     // Messiness filter
-    if (filters.messiness) {
+    if (filters.messiness && filters.messiness !== 'all') {
         filtered = filtered.filter(activity => activity.messiness === filters.messiness);
     }
     
