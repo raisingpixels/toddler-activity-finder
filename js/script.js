@@ -4,9 +4,9 @@ let displayedActivities = 0;
 const activitiesPerPage = 9;
 let filters = {
     category: 'all',
-    activityLength: '5 min',
-    setupTime: 'Quick',
-    messiness: 'Medium',
+    activityLength: 'all',
+    setupTime: 'all',
+    messiness: 'all',
     search: ''
 };
 
