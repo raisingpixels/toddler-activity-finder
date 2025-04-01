@@ -5,7 +5,7 @@ const activitiesPerPage = 9;
 let filters = {
     category: 'all',
     activityLength: 'all',
-    setupTime: 'all',
+    setupTime: 'Quick',
     messiness: 'all',
     search: ''
 };
