@@ -725,3 +725,116 @@ footer p {
         padding: 20px;
     }
 }
+
+/* Search box mobile responsiveness fixes */
+@media (max-width: 480px) {
+    .search-box {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    input[type="text"] {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 12px 15px;
+        font-size: 1rem;
+    }
+    
+    #search-button {
+        width: 100%;
+        margin-top: 10px;
+        padding: 12px 15px;
+    }
+    
+    /* Make search rounded corners consistent */
+    .search-section {
+        padding: 15px;
+        border-radius: 20px;
+    }
+    
+    /* Card padding adjustments */
+    .activity-card {
+        padding: 0;
+    }
+    
+    .card-header {
+        padding: 15px 15px 5px 15px;
+    }
+    
+    .age-range {
+        margin-bottom: 8px;
+        padding: 4px 10px;
+    }
+    
+    .activity-content {
+        padding: 10px 15px 15px 15px;
+    }
+    
+    .activity-description {
+        margin-bottom: 15px;
+    }
+    
+    .materials-needed {
+        margin-top: 10px;
+        gap: 6px;
+    }
+    
+    .material-chip {
+        padding: 4px 8px;
+        font-size: 0.85rem;
+    }
+    
+    .activity-meta {
+        padding-top: 10px;
+        margin-top: 10px;
+    }
+    
+    /* Ensure entire page doesn't overflow */
+    .container {
+        padding: 10px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    
+    /* Fix header for mobile */
+    header {
+        padding: 20px 15px;
+        margin-bottom: 20px;
+    }
+    
+    /* Fix filter section for mobile */
+    .filter-options {
+        gap: 8px;
+    }
+    
+    .filter-chip {
+        padding: 8px 12px;
+        font-size: 0.9rem;
+    }
+}
+
+/* Extra fixes for very small screens */
+@media (max-width: 360px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+    
+    .subtitle {
+        font-size: 1rem;
+    }
+    
+    .filter-chip {
+        padding: 6px 10px;
+        font-size: 0.85rem;
+    }
+    
+    /* Make sure cards don't have excess space */
+    .activity-card {
+        border-radius: 15px;
+    }
+}
+
+/* General fix for box-sizing to prevent overflow */
+* {
+    box-sizing: border-box;
+}
