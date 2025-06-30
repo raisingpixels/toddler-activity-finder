@@ -23,7 +23,7 @@ _| """ |_|"""""|_|"""""|_|"""""|_|"""""|_|"""""|
 
 ## 📚 About This Project
 
-Visit [vibecodemama.com/toddler-activity-finder](https://vibecodemama.com/toddler-activity-finder/) to see the live site!
+Visit [raisingpixels.dev/toddler-activity-finder](https://raisingpixels.dev/toddler-activity-finder/) to see the live site!
 
 The Toddler Activity Finder is an interactive tool to help parents, caregivers, and educators find perfect activities for toddlers aged 2-3 years. With an extensive database of developmentally appropriate activities, you can quickly filter by skill area, setup time, messiness level, and more to find just the right activity for your toddler's interests and your available time!
 
@@ -51,7 +51,7 @@ No installation required! This is a static website that runs entirely in the bro
 
 1. Clone the repository
    ```sh
-   git clone https://github.com/vibecodemama/toddler-activity-finder.git
+   git clone https://github.com/raisingpixels/toddler-activity-finder.git
    ```
 
 2. Open `index.html` in your browser
